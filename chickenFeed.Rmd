@@ -1,0 +1,53 @@
+---
+title: "Chicken Feed"
+author: "put your name here"
+date: "2/29/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+##  Chicken feed study  
+
+data set has chicken weights and 4 variables:
+  1.  chicken weight  
+  2.  chicken feed type  
+  3.  chicken time in the 40" run  
+  4.  chicken sex   
+
+Idea is to determine which of the variables affect chicken weight 
+The weight and time to run are numerical variables, gender and feed type are categorical variables
+
+So we'll use templatesRMD Cat Numerical, look for the section that has an 'aov'
+
+<!-- This question is like a bunch of t-tests, but instead of doing the t-test a bunch of times we use ANOVA to do all the comparisons at once!  !-->
+
+### get the data
+
+```{r}
+chickenData = read.csv('chickens.csv')
+head(chickenData)
+attach(chickenData)
+```
+
+### graphical summary
+
+<!-- plot chicken weight against each of the three explanatory variables.  weight against a categorial varable is a boxplot, weight against a numerical variable is a scatter plot !-->
+
+
+
+
+
+### Inference -- Analysis of Variance
+
+
+
+###  Conclusions  -- which variables affect chicken weight?
+
+
+
+
+### numerical summary
