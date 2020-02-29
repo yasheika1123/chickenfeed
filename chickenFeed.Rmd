@@ -35,7 +35,7 @@ attach(chickenData)
 
 ### Graphical summary
 
-<!-- plot chicken weight against each of the three explanatory variables.  weight against a categorial varable is a boxplot, weight against a numerical variable is a scatter plot !-->
+<!-- plot chicken weight against each of the three explanatory variables.  Weight against a categorial varable is a boxplot, weight against a numerical variable is a scatter plot !-->
 
 
 ### Numerical summary
