@@ -37,8 +37,11 @@ attach(chickenData)
 
 <!-- plot chicken weight against each of the three explanatory variables.  Weight against a categorial varable is a boxplot, weight against a numerical variable is a scatter plot !-->
 
-
+boxplot of weight based on feed
 ### Numerical summary
+```{r}
+plot(weight~feed,data=chickenData)
+```
 
 
 
