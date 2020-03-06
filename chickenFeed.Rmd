@@ -48,10 +48,14 @@ It appears that the feed type has an effect. Sunflower the best?
 ```{r}
 plot(weight~speed,data=chickenData)
 ```
-```
 There does not appear to be any relationship between and weight
 
+```{r}
+plot(weight~sex,data=chickenData)
+```
+
 ### Inference -- Analysis of Variance
+
 
 
 
