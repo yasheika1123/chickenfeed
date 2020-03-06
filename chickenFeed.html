@@ -411,9 +411,23 @@ head(chickenData)</code></pre>
 ##  3rd Qu.:53.5   3rd Qu.:323.5   soybean  :14   3rd Qu.:158.24         
 ##  Max.   :71.0   Max.   :423.0   sunflower:12   Max.   :191.50</code></pre>
 <p>This is a summary of all the data in chickenData ### Inference – Analysis of Variance</p>
+<pre class="r"><code>model1=lm(weight~feed+speed+sex,data=chickenData)
+anova(model1)</code></pre>
+<pre><code>## Analysis of Variance Table
+## 
+## Response: weight
+##           Df Sum Sq Mean Sq F value    Pr(&gt;F)    
+## feed       5 231129   46226  15.501 6.377e-10 ***
+## speed      1   7306    7306   2.450    0.1225    
+## sex        1    379     379   0.127    0.7228    
+## Residuals 63 187871    2982                      
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
+<p>This anova says only feed affects chicken weight</p>
 </div>
 <div id="conclusions-which-variables-affect-chicken-weight" class="section level3">
 <h3>Conclusions – which variables affect chicken weight?</h3>
+<p>Here is my hard earned conclusion</p>
 </div>
 </div>
 
