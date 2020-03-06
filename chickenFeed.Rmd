@@ -43,6 +43,8 @@ boxplot of weight based on feed
 plot(weight~feed,data=chickenData)
 ```
 
+It appears that the feed type has an effect. Sunflower the best?
+
 
 
 ### Inference -- Analysis of Variance
