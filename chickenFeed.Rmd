@@ -54,6 +54,10 @@ There does not appear to be any relationship between and weight
 plot(weight~sex,data=chickenData)
 ```
 
+```{r}
+summary(chickenData)
+```
+ This is a summary of all the data in chickenData
 ### Inference -- Analysis of Variance
 
 
